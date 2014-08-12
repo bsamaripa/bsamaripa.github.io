@@ -1,6 +1,18 @@
 # Dependencies
 markdown:         Kramdown
 highlighter:         true
+exclude:
+  - CNAME
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - node_modules/
+  - package.json
+  - Rakefile
+  - README.md
+  - vendor/
+
+layouts: ./_layouts
 
 # Permalinks
 permalink:        pretty
@@ -17,6 +29,6 @@ author:
   email:          byron.samaripa@gmail.com
 
 # Custom vars
-version:          1.0.0
+version:          0.1.0
 github:
   repo:           https://github.com/bsamaripa/bsamaripa.github.io
