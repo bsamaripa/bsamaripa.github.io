@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         Kramdown
+highlighter:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Byron Samaripa 
+tagline:          From Boulder With Love
+url:              http://bsamaripa.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           Byron Samaripa
+  url:            https://twitter.com/bsamaripa
+  email:          byron.samaripa@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/bsamaripa/bsamaripa.github.io
