@@ -2,25 +2,65 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
   {% include head.html %}
+  {% include icon-style.html %}
 
   <body>
+<div class="sticky">
+<nav class="top-bar" data-topbar>
+    <ul class="title-area">
+    <li class="name">
+      <h1><a href="{{ site.baseurl }}">Byron Samaripa</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+  <div class="small-4 large-6 columns">
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="divider"></li>
+        <li><a href="{{ site.baseurl }}about">About</a></li>
+        <li class="divider"></li>
+        <li><a href="{{ site.baseurl }}blog">Blog</a></li>
+        <li class="divider"></li>
+        <li><a href="{{ site.baseurl }}portfolio">Portfolio</a></li>
+        <li class="divider"></li>
+        <li><a href="{{ site.baseurl }}contact">Contact</a></li>
+        <li class="divider"></li>
 
-    <div class="container content">
-      <div class="masthead">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
-        </h3>
-      </div>
-
+      </ul>
+    </section>
+  </div>
+</nav>
+</div>
+  <div class="row">
+    <div class="small-12 large-8 columns">
       {{ content }}
-
-      <div class="footer">
-        <p>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        </p>
-      </div>
     </div>
-
+    <div class="small-12 large-4 columns">
+    {{ site.author }}
+    </div>
+  </div>
+    <div class="row">
+        <div class="column">
+          <hr>
+        </div>
+        <div class="small-12 large-8 columns">
+          <p> &copy; {{ site.time | date: '%Y' }}. Byron Samaripa</p>
+        </div>
+        <div class="small-12 large-4 columns">
+          <ul class="soc">
+          <li><a class="soc-facebook" href="#"></a></li>
+          <li><a class="soc-twitter" href="#"></a></li>
+          <li><a class="soc-linkedin" href="#"></a></li>
+          <li><a class="soc-github" href="#"></a></li>
+          <li><a class="soc-rss soc-icon-last" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    <!-- Initialize Foundation -->
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>

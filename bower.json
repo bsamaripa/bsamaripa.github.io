@@ -1,0 +1,26 @@
+{
+  "name": "bsamaripa.github.io",
+  "version": "0.1.0",
+  "homepage": "bsamaripa.github.io",
+  "authors": [
+    "Byron Samaripa <Byron.Samaripa@colorado.edu>"
+  ],
+  "description": "Personal Portfolio",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation#~5.3.3"
+  }
+}

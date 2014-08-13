@@ -1,0 +1,83 @@
+<style>
+@font-face {
+    font-family: 'si';
+    src: url('{{ site.baseurl }}public/socicon/socicon.eot');
+    src: url('{{ site.baseurl }}public/socicon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('{{ site.baseurl }}public/socicon/socicon.woff') format('woff'),
+         url('{{ site.baseurl }}public/socicon/socicon.ttf') format('truetype'),
+         url('{{ site.baseurl }}public/socicon/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url({{ site.baseurl }}public/socicon/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 26px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-right: 0px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-facebook:before {
+    content:'b';
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-rss:before {
+    content:',';
+}
+
+</style>
+

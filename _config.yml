@@ -4,13 +4,10 @@ highlighter:         true
 exclude:
   - CNAME
   - Gemfile
-  - Gruntfile.js
   - LICENSE
-  - node_modules/
-  - package.json
   - Rakefile
   - README.md
-  - vendor/
+  - bower.json
 
 layouts: ./_layouts
 
@@ -18,15 +15,18 @@ layouts: ./_layouts
 permalink:        pretty
 
 # Setup
-title:            Byron Samaripa 
+title:            Byron Samaripa
 tagline:          From Boulder With Love
 url:              http://bsamaripa.github.io
 paginate:         1
 baseurl:          /
 author:
   name:           Byron Samaripa
-  url:            https://twitter.com/bsamaripa
+  url:            http://www.bsamaripa.com/
   email:          byron.samaripa@gmail.com
+  twitter:        byronsamaripa
+  facebook:       byronsamaripa
+  github:         bsamaripa
 
 # Custom vars
 version:          0.1.0
